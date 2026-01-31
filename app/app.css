@@ -542,3 +542,22 @@ body {
   top: 45px;
   right: 40px;
 }
+/* ======== CHIP OVERRIDE ========= */
+#travel-chip .e-chip {
+  border-radius: 9999px !important; /* วงรี */
+  padding: 4px 12px !important;
+  height: auto !important;
+  font-weight: 500;
+}
+
+/* สี */
+#travel-chip .e-chip.bg-success {
+  background-color: #ecfdf3 !important;
+  color: #027a48 !important;
+}
+
+#travel-chip .e-chip.bg-pink {
+  background-color: #f7edf6 !important;
+  color: #c11574 !important;
+}
+
